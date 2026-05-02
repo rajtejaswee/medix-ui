@@ -13,3 +13,16 @@ dist/
 *.njsproj
 *.sln
 *.sw?
+
+# Agent files
+.agents/
+.qwen/
+.roo/
+.trae/
+.vibe/
+.windsurf/
+.zencoder/
+.gemini/
+skills/
+skills-lock.json
+.firebaserc
