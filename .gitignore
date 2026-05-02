@@ -14,15 +14,12 @@ dist/
 *.sln
 *.sw?
 
-# Agent files
-.agents/
-.qwen/
-.roo/
-.trae/
-.vibe/
-.windsurf/
-.zencoder/
-.gemini/
+# Agent & AI Skill files (Hidden directories)
+.*
+!.gitignore
+!.env.local
+
+# Skill folders and locks
 skills/
 skills-lock.json
 .firebaserc
